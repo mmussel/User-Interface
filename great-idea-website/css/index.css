@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	max-width:65%;
+	margin: auto;
+	
+}
+
+h1{
+	margin-left: 8%;
+	font-size: 500%;
+	width: 35%;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 120px;
+
+}
+.start{
+	display: inline-block;
+	font-size: 17px;
+	text-align: center;
+	border: 2px solid black;
+	font-family: "arial";
+	padding: 10px;
+	width: 25%;
+	vertical-align: top;
+	margin-bottom: 100px;
+	margin-top: 1%;
+	margin-left: 12%;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+
+
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+.titles{
+	width: 90%;
+	margin-top: 3%;
+	font-size: 100%;
+	word-spacing: 40px;
+}
+
+.photo{
+	
+	position: absolute;
+	vertical-align: top;
+	margin-left:450px;
+	margin-top: 120px;
+	top: 0;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+}
+.logo{
+	margin-top: 2%;
+	margin-right: 7%;
+	
+}
+.middle-section{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 3%;
+}
+.feature{
+	font-size: 120%;
+	width: 50%;
+}
+.about{
+	width: 50%;
+	font-size: 120%;
+	
+}
+
+.last-section{
+display: flex;
+flex-direction: row;
+width: 100%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.last-section h5{
+	font-size: 120%;;
+}
+.last-section p{
+	font-size: 120%;;
+}
+.middle{
+	width: 100%;
+	
+
+}
+.contact{
+	font-size: 120%;
+}
+address{
+	margin-bottom: 2%;
+}
+.number{
+	margin-bottom: 2%;
+}
+.email{
+	margin-bottom: 2%;
+}
+
+.copyright{
+	text-align: center;
+}
